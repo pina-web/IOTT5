@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>색변환 IOT T5 매뉴얼</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +27,7 @@
   --f-body:'Pretendard','Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif;
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{background:var(--side)}
 body{background:var(--side);color:var(--ink);font-family:var(--f-body);font-size:15.5px;line-height:1.75;-webkit-font-smoothing:antialiased}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
@@ -152,6 +158,9 @@ a{color:var(--accent)}
 footer{border-top:1px solid var(--line);text-align:center;letter-spacing:1px;font-size:11px;color:var(--muted);padding-block:16px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
+</head>
+<body style="margin:0">
+
 
 <div class="sheet">
 <header class="pad">
@@ -524,3 +533,6 @@ footer{border-top:1px solid var(--line);text-align:center;letter-spacing:1px;fon
   });
 })();
 </script>
+
+</body>
+</html>
